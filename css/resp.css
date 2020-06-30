@@ -1,0 +1,80 @@
+@media only screen and (max-width:1202px)
+{
+    .logo img{
+        margin: 10px auto;
+        width:70px;
+    }
+    .logo{
+        width:200px;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 373px;
+        transition: all 0.4s ease-out;
+        width: 100vw;
+    }
+    .navleft{
+        flex-direction: column;
+    }
+    .navleft li{
+        padding:16px 0px;
+    }
+    .navright{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+        
+    }
+
+    .h-navresp{
+        height: 40px;
+    }
+    .v-resp{
+        opacity: 0;
+    }
+    .boxmain{
+        margin:auto;
+        flex-direction: column-reverse;
+        width:63%;
+        justify-content: center;
+    }
+    .secondhalf img{
+        width:40%;
+    }
+    .btn{
+        padding:5px;
+        font-size: 18px;
+        
+    }
+    .btn-sm{
+        margin-left: 25px;
+    }
+    .firstsection{
+        width:100vw;
+    }
+    .secondsection{
+        flex-direction: column-reverse;
+        margin:20px ;
+    }
+    #search{
+        width: 100px;    
+        padding-left: 25px;
+    }
+    .form-input{
+        width:300px;
+        padding: 5px;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .paras{
+        text-align: center;
+    }
+    .firsthalf{
+        text-align:center;
+    }
+    .secondhalf{
+        text-align: center;
+    }
+}
